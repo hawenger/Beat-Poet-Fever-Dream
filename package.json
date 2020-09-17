@@ -1,0 +1,25 @@
+{
+  "name": "beat-poet-fever-dream",
+  "version": "1.0.0",
+  "description": "A beat poet walks up the stairs, words flit through his mind.  You choose the ones he'll remember upon waking.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawenger/Beat-Poet-Fever-Dream.git"
+  },
+  "author": "Hannah Wenger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawenger/Beat-Poet-Fever-Dream/issues"
+  },
+  "homepage": "https://github.com/hawenger/Beat-Poet-Fever-Dream#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^14.11.0",
+    "random-part-of-speech": "^1.0.0"
+  }
+}
